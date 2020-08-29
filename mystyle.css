@@ -1,0 +1,75 @@
+h2{
+	color: #000000;
+	font-family: 'Montserrat', sans-serif;
+}
+h1{
+	color: #000000;
+	font-family: 'Montserrat', sans-serif;
+}
+
+a{
+	background-color: #59ba66;
+	color: #f3f3f3;
+	padding: 0.1em 0.1em;
+	text-decoration: none;
+	border-radius: 8px;
+}
+
+a:hover{
+	background-color: #36755d;
+	color: #000000;
+}
+
+table{
+	width: 100%;
+}
+td{
+	padding: 20px;
+	border-color: black;
+}
+
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.row {
+  display: flex;
+}
+.column {
+  float: left;
+}
+
+.left {
+  width: 25%;
+}
+
+.right {
+  width: 75%;
+  float: right;
+  text-align: right;
+}
+
+.border-right {
+    border-right: 1px solid black;
+}
+
+
+div {
+  column-gap: 200px;
+  text-align: center;
+}
+
+img{
+	border-color: #59ba66; 
+	border-radius: 10px;
+	text-align: center;
+}
+
+body { 
+  padding:0; 
+  margin:0;
+  background:#f2f2f2 url(fundbackground.png) repeat-x;
+  width:100%;
+  display:table;
+  text-align:left; 
